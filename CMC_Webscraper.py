@@ -88,7 +88,7 @@ while True:
         # CLose connections 
         r.close()
         print('\n','Sleeping...ZZZzzz....')
-        time.sleep(598)
+        time.sleep(600-120) # Take into account time to run script ~1.0 minutes
 
 #%% Writing to a csv
 
