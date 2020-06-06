@@ -35,7 +35,7 @@ df = pd.DataFrame(ini_names, columns = ['Names'])
 
 week_time = 604800  # seconds in one week
 day_time = week_time/7
-timeout = time.time() + 1
+timeout = time.time() + week_time
 
 while True:
     # Set a break statement after 1 week
